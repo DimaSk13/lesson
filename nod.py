@@ -1,8 +1,3 @@
-def f(a, b):
-    while a != b:
-        if a > b:
-            a = a - b
-        else:
-            b = b - a
-    return a
+import math
 a, b = int(input()), int(input())
+print(math.gcd(a, b))
